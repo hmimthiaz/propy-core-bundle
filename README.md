@@ -1,1 +1,1 @@
-# propy-core-library
+# propy-core-bundle

@@ -1,0 +1,14 @@
+services:
+  _defaults:
+    autowire:      true
+    autoconfigure: true
+    public:        true
+
+  # automatically register all classes in MainBundle/
+  Propy\CoreBundle\:
+    resource: '../../'
+    exclude:
+      - '../../Classes/'
+      - '../../DependencyInjection/'
+      - '../../Entity/'
+      - '../../Resources/'
