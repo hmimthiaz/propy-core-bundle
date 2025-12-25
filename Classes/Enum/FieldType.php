@@ -24,8 +24,6 @@ enum FieldType: string implements EnumInterface
 
     case DATE_TIME = 'date-time';
 
-    case COLOR = 'color';
-
     case OPTION = 'option';
 
     public static function getStatuses(): array
@@ -40,7 +38,6 @@ enum FieldType: string implements EnumInterface
             self::DATE->value,
             self::TIME->value,
             self::DATE_TIME->value,
-            self::COLOR->value,
             self::OPTION->value,
         ];
     }
@@ -57,7 +54,6 @@ enum FieldType: string implements EnumInterface
             self::DATE->value => 'Date',
             self::TIME->value => 'Time',
             self::DATE_TIME->value => 'Date Time',
-            self::COLOR->value => 'Color',
             self::OPTION->value => 'Option',
         ];
 
